@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}Office{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+	<h1>你好，{{ name if name else 'web' }}。</h1>
+</div>
+{% endblock %}
